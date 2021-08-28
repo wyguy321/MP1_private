@@ -1,6 +1,8 @@
 # CS410 MP1 -- Getting Familiar with Text
 Due Sept 5, 2021:
 
+**For students who just added the class, NO LATE PENALTY will be applied to submissions before Sept 12
+
 In this assignment, you will perform your first text mining analysis with the MeTA toolkit. We will first provide some instructions on setting up and exploring basic functionalities available in MeTA. Details on the graded portion of the assignment can be found at the bottom ("Trying it out on your own!" section)
 
 
