@@ -7,7 +7,6 @@ def tokens_lowercase(doc):
     '''Place your code here'''
  
     tok = metapy.analyzers.ICUTokenizer(suppress_tags=True)
-    tok.set_content(doc.content())
     print("Printing TOK!!")
     print(tok)
     tok = metapy.analyzers.LowercaseFilter(tok)
