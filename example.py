@@ -16,7 +16,7 @@ def tokens_lowercase(doc):
 
     trigrams = ana.analyze(doc)
 
-    print(trigrams.items())
+    #print(trigrams.items())
     
     #leave the rest of the code as is
     tok.set_content(doc.content())
