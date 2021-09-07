@@ -10,8 +10,8 @@ def tokens_lowercase(doc):
     tok = metapy.analyzers.LowercaseFilter(tok)
     tok = metapy.analyzers.LengthFilter(tok, min=2, max=5)
     #tok.set_content(doc.content())
-    #tok = metapy.analyzers.Porter2Filter(tok)
-    tok = metapy.analyzers.ListFilter(tok, "lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)
+    tok = metapy.analyzers.Porter2Filter(tok)
+    #tok = metapy.analyzers.ListFilter(tok, "lemur-stopwords.txt", metapy.analyzers.ListFilter.Type.Reject)
     ana = metapy.analyzers.NGramWordAnalyzer(3, tok)
 
     trigrams = ana.analyze(doc)
