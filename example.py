@@ -24,7 +24,7 @@ def tokens_lowercase(doc):
     for token, count in trigrams.items():
         counts.append(count)
         tokens.append(token)
-        return tokens
+    return tokens
     
 if __name__ == '__main__':
     doc = metapy.index.Document()
